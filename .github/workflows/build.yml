@@ -1,3 +1,4 @@
+#file: noinspection UndefinedAction,UndefinedParamsPresent
 name: Сборка проекта
 
 on:
@@ -49,9 +50,9 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ env.VERSION }}
-          name: PPFSS_Magnet v${{ env.VERSION }}
+          name: OntaDev_Magnet v${{ env.VERSION }}
           body: "Автоматический релиз версии ${{ env.VERSION }}"
-          files: target/PPFSS_Magnet.jar
+          files: target/OntaDev_Magnet.jar
           draft: false
           prerelease: false
         env:

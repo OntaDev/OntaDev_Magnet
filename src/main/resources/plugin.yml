@@ -1,7 +1,8 @@
-name: PPFSS_Magnet
+name: OntaDev_Magnet
 version: '${project.version}'
-main: com.ppfss.magnet.PPFSS_Magnet
-author: "PPFSS"
+main: com.ontadev.magnet.OntaDev_Magnet
+author: "OntaDev"
 api-version: '1.16'
 load: STARTUP
-authors: [PPFSS]
+authors: [OntaDev]
+depend: [OntaDev_Libs]

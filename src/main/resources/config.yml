@@ -27,7 +27,7 @@ default-item:
     - "<light_purple>Сила: <white><strength>"
     - "<light_purple>Лимит: <white><limit>"
     - "<white>"
-    - "<gray>©PPFSS"
+    - "<gray>©OntaDev"
 
 
 # Настройки притяжения предметов
